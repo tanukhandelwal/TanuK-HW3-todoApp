@@ -13,6 +13,8 @@
 		59E9F91D1A854BC40048095D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E9F91C1A854BC40048095D /* Images.xcassets */; };
 		59E9F9201A854BC40048095D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E9F91E1A854BC40048095D /* Main.storyboard */; };
 		59E9F92C1A854BC40048095D /* tanuK_HW3TodoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E9F92B1A854BC40048095D /* tanuK_HW3TodoAppTests.m */; };
+		59E9F9371A8564CF0048095D /* todoItemClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E9F9361A8564CF0048095D /* todoItemClass.m */; };
+		59E9F93A1A8564EF0048095D /* todoListClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E9F9391A8564EF0048095D /* todoListClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 		59E9F9251A854BC40048095D /* tanuK_HW3TodoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tanuK_HW3TodoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E9F92A1A854BC40048095D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59E9F92B1A854BC40048095D /* tanuK_HW3TodoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tanuK_HW3TodoAppTests.m; sourceTree = "<group>"; };
+		59E9F9351A8564CF0048095D /* todoItemClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = todoItemClass.h; sourceTree = "<group>"; };
+		59E9F9361A8564CF0048095D /* todoItemClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = todoItemClass.m; sourceTree = "<group>"; };
+		59E9F9381A8564EF0048095D /* todoListClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = todoListClass.h; sourceTree = "<group>"; };
+		59E9F9391A8564EF0048095D /* todoListClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = todoListClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 				59E9F9151A854BC40048095D /* AppDelegate.m */,
 				59E9F9191A854BC40048095D /* ViewController.h */,
 				59E9F91A1A854BC40048095D /* ViewController.m */,
+				59E9F9351A8564CF0048095D /* todoItemClass.h */,
+				59E9F9361A8564CF0048095D /* todoItemClass.m */,
+				59E9F9381A8564EF0048095D /* todoListClass.h */,
+				59E9F9391A8564EF0048095D /* todoListClass.m */,
 				59E9F91C1A854BC40048095D /* Images.xcassets */,
 				59E9F91E1A854BC40048095D /* Main.storyboard */,
 				59E9F9121A854BC40048095D /* Supporting Files */,
@@ -216,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				59E9F91B1A854BC40048095D /* ViewController.m in Sources */,
+				59E9F9371A8564CF0048095D /* todoItemClass.m in Sources */,
+				59E9F93A1A8564EF0048095D /* todoListClass.m in Sources */,
 				59E9F9181A854BC40048095D /* main.m in Sources */,
 				59E9F9161A854BC40048095D /* AppDelegate.m in Sources */,
 			);

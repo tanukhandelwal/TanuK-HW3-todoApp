@@ -12,14 +12,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.todoItemList.delegate = self;
+    self.todoItemList.dataSource=self;
+    self.todoItemList.rowHeight=40;
 
-    // Do any additional setup after loading the view.
+    
 }
 
-- (void)setRepresentedObject:(id)representedObject {
-    [super setRepresentedObject:representedObject];
 
-    // Update the view, if already loaded.
+-(NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
+{
+    NSTableCellView *cell = [tableView makeViewWithIdentifier:@"Cell" owner:nil];
+    cell.textField.stringValue = self.inputField.stringValue;
+    return cell;
 }
+
+
+
+-(NSInteger)numberOfRowsInTableView:(NSTableView *)tableView
+{
+    return 5;
+}
+
+
+- (IBAction)addElements:(id)sender {
+    
+    NSArray *itemList = [[NSArray alloc] initWithObjects:self.inputField.stringValue, nil];
+   
+    
+    NSLog(@"%@",itemList);
+}
+
 
 @end
