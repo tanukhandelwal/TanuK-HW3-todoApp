@@ -29,7 +29,7 @@
     self = [self init];
     if(self)
     {
-      //  _title = title;
+       _title = title;
         _contents = @"";
     }
     return self;
